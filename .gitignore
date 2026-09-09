@@ -1,0 +1,18 @@
+# ── Arquivos gerados pelo Sphinx ─────────────────────────────────────────────
+docs/_build/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Sistema ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
