@@ -23,9 +23,13 @@ version = '1.0'
 # ── Extensões ─────────────────────────────────────────────────────────────────
 extensions = [
     'sphinx.ext.duration',
+    'sphinx_rtd_dark_mode',
     'myst_parser',
     'sphinx_copybutton',
 ]
+
+# Dark mode ligado por padrão
+default_dark_mode = True
 
 source_suffix = {
     '.rst': 'restructuredtext',
