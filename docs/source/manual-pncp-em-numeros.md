@@ -45,7 +45,11 @@ A página Visão Geral tem como função permitir, em poucos segundos:
 
 ### 2. Estrutura da página e entendimento inicial da visualização
 
-A leitura segue uma lógica de cima para baixo e da esquerda para a direita. As cores também têm relevância onde o **verde** representa os valores Publicado, enquanto o **azul** representa os valores Homologado.
+A leitura segue uma lógica de cima para baixo e da esquerda para a direita.
+
+:::{note}
+As cores têm relevância no painel: **verde** representa valores **Publicado**, enquanto **azul** representa valores **Homologado**. Essa convenção de cores é mantida em todas as visualizações do painel.
+:::
 
 ### 3. Indicadores principais
 
@@ -71,7 +75,11 @@ Enquanto nos KPI's de contratações homologadas temos:
 
 ![KPIs de Contratações Homologadas - Detalhe](_static/img/visao-geral-kpi-homologadas-2.png)
 
-Esses indicadores gerais têm como objetivo fornecer uma visão rápida e consolidada do comportamento das contratações públicas registradas no PNCP, permitindo identificar o volume financeiro movimentado, a quantidade de contratações realizadas, o quantitativo de itens envolvidos e a abrangência dos portais utilizados. A comparação entre os valores publicados e homologados possibilita compreender a diferença entre a intenção inicial de contratação e os valores efetivamente contratados, servindo como ponto de partida para análises mais detalhadas ao longo do painel.
+Esses indicadores gerais têm como objetivo fornecer uma visão rápida e consolidada do comportamento das contratações públicas registradas no PNCP, permitindo identificar o volume financeiro movimentado, a quantidade de contratações realizadas, o quantitativo de itens envolvidos e a abrangência dos portais utilizados.
+
+:::{important}
+**Publicado ≠ Homologado.** O valor publicado representa a *intenção* de contratação; o valor homologado representa o que foi *efetivamente contratado*. A diferença entre eles é um dos principais indicadores de eficiência do processo licitatório.
+:::
 
 ---
 
@@ -93,6 +101,10 @@ A ideia desse gráfico é verificar a evolução financeira e quantitativa das c
 
 Aqui a visualização é de uma matriz que compara o valor publicado e homologado por ano de publicação, com um drill de mês de publicação, em seguida de UF do Órgão.
 
+:::{tip}
+Utilize o **drill-down** clicando no símbolo de seta para baixo (▼) no cabeçalho da matriz para aprofundar a leitura: **Ano → Mês → UF**. Para retornar ao nível anterior, clique na seta para cima (▲).
+:::
+
 Essa visualização oferece um comparativo detalhado dos valores financeiros publicados e homologados por UF do Órgão contratante, permitindo acompanhar a evolução das contratações ao longo do tempo em diferentes níveis de detalhamento. A funcionalidade de drill-down possibilita aprofundar a análise do ano para o mês e, posteriormente, para a unidade federativa, facilitando a identificação de padrões regionais, sazonalidades e concentrações de contratação em determinados períodos ou localidades.
 
 ---
@@ -105,9 +117,13 @@ Aqui temos um gráfico de dispersão onde cada ponto representa uma UF. Quanto m
 
 Essa visualização permite comparar o comportamento financeiro das contratações publicadas e homologadas entre as Unidades Federativas, possibilitando identificar estados com maior volume de contratações, padrões de concentração regional e diferenças entre os valores inicialmente publicados e os efetivamente homologados. Quanto mais próximo um estado estiver da tendência geral do gráfico, maior tende a ser a aderência entre os valores publicados e homologados, enquanto desvios mais acentuados podem indicar comportamentos específicos ou diferenças relevantes na execução das contratações públicas.
 
-A partir desde ponto, a visualização e análise é dividida em duas frentes, **Total Publicado** e **Total Homologado**, que podem ser acessadas clicando nos botões correspondentes. Quando se clica em Total Publicado, o que será relatado abaixo mostra somente os valores e quantidades relacionado à contratos publicados, enquanto quando se clica em Total Homologado mostra somente os valores e quantidades relacionado à contratos homologado.
+A partir deste ponto, a visualização e análise é dividida em duas frentes, **Total Publicado** e **Total Homologado**, que podem ser acessadas clicando nos botões correspondentes.
 
 ![Botões de alternância Publicado/Homologado](_static/img/visao-geral-botoes-publicado-homologado.png)
+
+:::{attention}
+Ao clicar em **Total Publicado**, todas as visualizações abaixo passam a exibir apenas dados de contratos publicados. Ao clicar em **Total Homologado**, exibem apenas dados homologados. Os dois modos são independentes — certifique-se de estar no modo correto antes de interpretar os gráficos.
+:::
 
 ---
 
@@ -117,7 +133,11 @@ Aqui temos um mapa coloroplético do Brasil pelo valor publicado, onde a cor mai
 
 ![Mapa de Distribuição por UF](_static/img/visao-geral-mapa-distribuicao.png)
 
-Essa visualização permite identificar a distribuição geográfica das contratações públicas entre os estados brasileiros, evidenciando as regiões com maior concentração financeira de contratos publicados e homologados. Quanto mais intensa a tonalidade apresentada no mapa, maior é o volume financeiro associado à respectiva Unidade Federativa. A análise espacial facilita a percepção de padrões regionais, concentração de investimentos públicos e diferenças de comportamento entre os estados, permitindo uma visão territorial mais clara da dinâmica das contratações públicas no país.
+Essa visualização permite identificar a distribuição geográfica das contratações públicas entre os estados brasileiros, evidenciando as regiões com maior concentração financeira de contratos publicados e homologados.
+
+:::{note}
+**Leitura do mapa coroplético:** quanto mais escura a tonalidade de um estado, maior é o volume financeiro de contratações associado àquela Unidade Federativa. Estados em cinza claro ou branco indicam baixo volume ou ausência de registros no período selecionado.
+:::
 
 ---
 
@@ -179,6 +199,10 @@ Os filtros estão organizados em **3 grupos**:
 - Modalidade / Instrumento / Modo de disputa
 - Situação da contratação
 - Indicadores de qualidade (outlier / excluído)
+
+:::{tip}
+O **Ano / Mês de Publicação** é o principal filtro da página. Sempre defina o período antes de aplicar os demais filtros — isso garante que todos os indicadores reflitam o recorte temporal correto.
+:::
 
 Os filtros de Contratação permitem definir o universo principal da análise. A partir deles, é possível observar o comportamento das contratações por período, órgão, unidade administrativa, município, UF, modalidade, instrumento convocatório, modo de disputa e situação da contratação. Esses filtros ajudam a responder perguntas como: em quais anos houve maior volume de publicações, quais órgãos concentram mais valores, quais estados apresentam maior participação, quais modalidades são mais utilizadas e qual é a situação predominante das contratações registradas no PNCP. Também permitem aplicar critérios de qualidade, como exclusão de outliers ou registros excluídos, garantindo uma leitura mais consistente dos indicadores.
 
@@ -296,6 +320,10 @@ A visualização apresenta uma tabela de detalhamento das contratações por ór
 ![Tabela de Contratações por Órgão Contratante](_static/img/publicadas-tabela-orgao-contratante.png)
 
 Essa tabela permite que o usuário saia da visão agregada e acesse informações mais específicas sobre cada contratação publicada. O campo com o número da contratação contém link direto para o edital no PNCP, permitindo rastreabilidade e consulta à fonte oficial.
+
+:::{tip}
+Clique no número da contratação na tabela para acessar diretamente o edital publicado no **portal PNCP** (pncp.gov.br). Esse link garante rastreabilidade e permite consulta à fonte oficial sem necessidade de busca manual.
+:::
 
 No campo **Elegível à Margem de Preferência**, há um ícone de informação que abre uma visualização complementar. Essa visualização apresenta KPIs relacionados ao valor da margem de preferência, percentual do valor com margem de preferência e um gráfico de rosca com a distribuição percentual por amparo legal.
 
@@ -502,7 +530,9 @@ Esses indicadores apresentam uma visão consolidada do volume de contratações 
 
 Em seguida, a página apresenta KPIs específicos relacionados às contratações homologadas com participação de ME/EPP.
 
-> ℹ️ **Nota:** No contexto correto, ME/EPP significa **Microempresa / Empresa de Pequeno Porte**. MEI é Microempreendedor Individual.
+:::{note}
+**ME/EPP** significa **Microempresa / Empresa de Pequeno Porte**. Não confundir com MEI (Microempreendedor Individual), que é uma categoria distinta. O painel segrega esses indicadores para facilitar o acompanhamento das políticas de tratamento diferenciado previstas na Lei Complementar nº 123/2006.
+:::
 
 Indicadores apresentados:
 
@@ -527,6 +557,10 @@ A página possui uma divisão por botões que permite alternar entre:
 Quando o usuário seleciona **Fornecedores Nacionais**, os gráficos e indicadores passam a exibir apenas os valores e quantidades vinculados a fornecedores nacionais. Quando seleciona **Fornecedores Internacionais**, a página apresenta os resultados relacionados a fornecedores estrangeiros.
 
 ![Botões de alternância Nacional/Internacional](_static/img/homologadas-botoes-nacional-internacional.png)
+
+:::{attention}
+A seleção entre **Nacional** e **Internacional** altera **todos** os indicadores e gráficos da página simultaneamente, incluindo KPIs, mapas, tabelas e tendência temporal. Verifique sempre qual modo está ativo antes de interpretar os dados.
+:::
 
 Essa alternância permite comparar a participação nacional e internacional nas contratações homologadas, possibilitando avaliar a origem dos fornecedores, a concentração territorial dos contratos, o volume financeiro associado e possíveis diferenças entre o perfil das contratações realizadas com fornecedores brasileiros e estrangeiros.
 
