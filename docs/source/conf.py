@@ -55,8 +55,7 @@ html_theme_options = {
     'titles_only': False,
 }
 
-html_logo = '_static/img/logo-pncp-transparente-branco.png'
-html_favicon = '_static/img/logo-pncp-transparente.png'
+# html_logo e html_favicon removidos por recomendação do período eleitoral
 
 html_static_path = ['_static']
 html_css_files = ['custom.css']
