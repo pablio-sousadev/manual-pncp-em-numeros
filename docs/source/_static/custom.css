@@ -70,3 +70,27 @@ table.docutils th {
     padding: .5rem .75rem;
     border: 1px solid #ddd;
 }
+
+/* ── Botão de alternar tema claro/escuro ──────────────────────────────────── */
+.theme-switcher {
+    bottom: 75px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+}
+
+/* ── Ocultar anúncios do Read the Docs (EthicalAds) ───────────────────────── */
+#ethical-ad-placement,
+.ethical-rtd,
+.ethical-sidebar,
+div[data-ea-publisher],
+div[class*="ethical"],
+[id*="ethical"],
+.rst-content .ethical-rtd-footer,
+#ethicaladplacement {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
