@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "manual-pncp-em-numeros"
+version = "1.0.0"
+description = "Guia de utilização do painel PNCP em Números"
+authors = [
+    {name = "COTIN/DELOG/MGI"}
+]

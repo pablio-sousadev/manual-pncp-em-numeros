@@ -58,7 +58,7 @@ Nos KPI's de contratações publicadas temos:
 - Quantidade de Contratações Publicadas (Publicado - Qtd Contratações);
 - Quantidade de Portais os quais foram feitas as publicações (Publicado - Qtd Portais).
 
-![KPIs de Contratações Publicadas](_static/images/visao-geral-kpi-publicadas.png)
+![KPIs de Contratações Publicadas](_static/img/visao-geral-kpi-publicadas.png)
 
 Enquanto nos KPI's de contratações homologadas temos:
 
@@ -67,9 +67,9 @@ Enquanto nos KPI's de contratações homologadas temos:
 - Quantidade de Contratações Homologadas (Homologado - Qtd Contratações);
 - Quantidade de Portais os quais foram feitas as homologações (Homologado - Qtd Portais).
 
-![KPIs de Contratações Homologadas](_static/images/visao-geral-kpi-homologadas.png)
+![KPIs de Contratações Homologadas](_static/img/visao-geral-kpi-homologadas.png)
 
-![KPIs de Contratações Homologadas - Detalhe](_static/images/visao-geral-kpi-homologadas-2.png)
+![KPIs de Contratações Homologadas - Detalhe](_static/img/visao-geral-kpi-homologadas-2.png)
 
 Esses indicadores gerais têm como objetivo fornecer uma visão rápida e consolidada do comportamento das contratações públicas registradas no PNCP, permitindo identificar o volume financeiro movimentado, a quantidade de contratações realizadas, o quantitativo de itens envolvidos e a abrangência dos portais utilizados. A comparação entre os valores publicados e homologados possibilita compreender a diferença entre a intenção inicial de contratação e os valores efetivamente contratados, servindo como ponto de partida para análises mais detalhadas ao longo do painel.
 
@@ -79,7 +79,7 @@ Esses indicadores gerais têm como objetivo fornecer uma visão rápida e consol
 
 Aqui temos um gráfico de linha temporal de Valor Total de Contratações x Data de Publicação que compara os valores publicados e homologados ano à ano. Os valores em Reais (R$) podem ser alterados para Quantidade de contratações Publicadas e Homologadas.
 
-![Tendência Temporal de Contratações](_static/images/visao-geral-tendencia-temporal.png)
+![Tendência Temporal de Contratações](_static/img/visao-geral-tendencia-temporal.png)
 
 A ideia desse gráfico é verificar a evolução financeira e quantitativa das contratações ao longo dos anos, permitindo uma análise histórica do crescimento, redução ou estabilidade das compras públicas registradas no PNCP. A comparação entre os valores publicados e homologados ajuda a identificar o comportamento entre a intenção inicial de contratação e o volume efetivamente homologado, possibilitando observar tendências, mudanças de padrão ao longo do tempo e possíveis oscilações relevantes no volume de contratações públicas.
 
@@ -87,9 +87,9 @@ A ideia desse gráfico é verificar a evolução financeira e quantitativa das c
 
 #### Detalhamento por tempo e UF
 
-![Detalhamento por UF - Matriz](_static/images/visao-geral-detalhamento-uf.png)
+![Detalhamento por UF - Matriz](_static/img/visao-geral-detalhamento-uf.png)
 
-![Detalhamento por UF - Drill-down](_static/images/visao-geral-detalhamento-uf-2.png)
+![Detalhamento por UF - Drill-down](_static/img/visao-geral-detalhamento-uf-2.png)
 
 Aqui a visualização é de uma matriz que compara o valor publicado e homologado por ano de publicação, com um drill de mês de publicação, em seguida de UF do Órgão.
 
@@ -101,13 +101,13 @@ Essa visualização oferece um comparativo detalhado dos valores financeiros pub
 
 Aqui temos um gráfico de dispersão onde cada ponto representa uma UF. Quanto mais à direita e acima, maior o volume financeiro de contratações publicadas e homologadas. Estados próximos da tendência geral apresentam maior equilíbrio entre valores publicados e efetivamente homologados.
 
-![Dispersão Publicado vs. Homologado por UF](_static/images/visao-geral-dispersao-publicado-vs-homologado.png)
+![Dispersão Publicado vs. Homologado por UF](_static/img/visao-geral-dispersao-publicado-vs-homologado.png)
 
 Essa visualização permite comparar o comportamento financeiro das contratações publicadas e homologadas entre as Unidades Federativas, possibilitando identificar estados com maior volume de contratações, padrões de concentração regional e diferenças entre os valores inicialmente publicados e os efetivamente homologados. Quanto mais próximo um estado estiver da tendência geral do gráfico, maior tende a ser a aderência entre os valores publicados e homologados, enquanto desvios mais acentuados podem indicar comportamentos específicos ou diferenças relevantes na execução das contratações públicas.
 
 A partir desde ponto, a visualização e análise é dividida em duas frentes, **Total Publicado** e **Total Homologado**, que podem ser acessadas clicando nos botões correspondentes. Quando se clica em Total Publicado, o que será relatado abaixo mostra somente os valores e quantidades relacionado à contratos publicados, enquanto quando se clica em Total Homologado mostra somente os valores e quantidades relacionado à contratos homologado.
 
-![Botões de alternância Publicado/Homologado](_static/images/visao-geral-botoes-publicado-homologado.png)
+![Botões de alternância Publicado/Homologado](_static/img/visao-geral-botoes-publicado-homologado.png)
 
 ---
 
@@ -115,7 +115,7 @@ A partir desde ponto, a visualização e análise é dividida em duas frentes, *
 
 Aqui temos um mapa coloroplético do Brasil pelo valor publicado, onde a cor mais escura informa o estado (UF) com maior concentração de contratos Publicados.
 
-![Mapa de Distribuição por UF](_static/images/visao-geral-mapa-distribuicao.png)
+![Mapa de Distribuição por UF](_static/img/visao-geral-mapa-distribuicao.png)
 
 Essa visualização permite identificar a distribuição geográfica das contratações públicas entre os estados brasileiros, evidenciando as regiões com maior concentração financeira de contratos publicados e homologados. Quanto mais intensa a tonalidade apresentada no mapa, maior é o volume financeiro associado à respectiva Unidade Federativa. A análise espacial facilita a percepção de padrões regionais, concentração de investimentos públicos e diferenças de comportamento entre os estados, permitindo uma visão territorial mais clara da dinâmica das contratações públicas no país.
 
@@ -129,11 +129,11 @@ Essa visualização é dividida em três que se alternam através de botões ond
 - **Esfera Governamental - %**: mostra um gráfico de rosca com os valores % derivada dos valores por esfera em reais (R$).
 - **Esfera Governamental - Qtd**: mostra um gráfico de barras verticais com a quantidade de contratos por esfera governamental.
 
-![Esfera Governamental - Valores em R$](_static/images/visao-geral-esfera-reais.png)
+![Esfera Governamental - Valores em R$](_static/img/visao-geral-esfera-reais.png)
 
-![Esfera Governamental - Percentual](_static/images/visao-geral-esfera-percentual.png)
+![Esfera Governamental - Percentual](_static/img/visao-geral-esfera-percentual.png)
 
-![Esfera Governamental - Quantidade](_static/images/visao-geral-esfera-quantidade.png)
+![Esfera Governamental - Quantidade](_static/img/visao-geral-esfera-quantidade.png)
 
 Essa análise permite compreender como as contratações públicas estão distribuídas entre as diferentes esferas governamentais — federal, estadual, municipal e demais classificações existentes na base do PNCP. A alternância entre valor financeiro, participação percentual e quantidade de contratos possibilita observar não apenas qual esfera movimenta mais recursos, mas também qual concentra maior volume de contratações. Essa combinação de perspectivas auxilia na identificação do perfil predominante das contratações públicas no país e evidencia diferenças de comportamento entre os níveis de governo.
 
@@ -143,7 +143,7 @@ Essa análise permite compreender como as contratações públicas estão distri
 
 Temos aqui um gráfico tree map que plota os valores em reais (R$) pela Modalidade de Contratação (Pregão Eletrônico, Concorrência - Eletrônica, Inexigibilidade, Dispensa, Credenciamento, Concorrência Presencial etc.).
 
-![Modalidade de Contratação - Tree Map](_static/images/visao-geral-modalidade-treemap.png)
+![Modalidade de Contratação - Tree Map](_static/img/visao-geral-modalidade-treemap.png)
 
 Essa visualização permite identificar quais modalidades de contratação concentram os maiores volumes financeiros dentro do PNCP, facilitando a compreensão sobre os mecanismos mais utilizados pela administração pública para realização das contratações. Quanto maior a área representada no gráfico, maior é o valor financeiro associado à respectiva modalidade. A análise auxilia na percepção da predominância de modalidades como Pregão Eletrônico, Dispensa e Inexigibilidade, além de permitir comparações rápidas entre os diferentes modelos de contratação utilizados pelos órgãos públicos.
 
@@ -159,7 +159,7 @@ E por último temos o total publicado por Situação de Contratação. Essa visu
 
 A Situação de Contratação pode ser: **Divulgada no PNCP**, **Suspensa**, **Anulada**, **Revogada**.
 
-![Situação de Contratação](_static/images/visao-geral-situacao-contratacao.png)
+![Situação de Contratação](_static/img/visao-geral-situacao-contratacao.png)
 
 Essa análise permite compreender a distribuição das contratações públicas conforme a situação administrativa em que se encontram dentro do PNCP, evidenciando o volume financeiro, a participação percentual e a quantidade de contratos associados a cada status. A visualização auxilia na identificação da predominância de contratações efetivamente divulgadas no portal, ao mesmo tempo em que mantém transparência sobre processos suspensos, anulados ou revogados, possibilitando uma leitura mais clara do ciclo e da situação operacional das contratações públicas registradas na plataforma.
 
@@ -252,7 +252,7 @@ Nos KPI's de contratações publicadas temos:
 - Quantidade de Contratações Publicadas (Publicado - Qtd Contratações);
 - Quantidade de Portais os quais foram feitas as publicações (Publicado - Qtd Portais).
 
-![KPIs da Página Contratações Publicadas](_static/images/publicadas-kpi-cards.png)
+![KPIs da Página Contratações Publicadas](_static/img/publicadas-kpi-cards.png)
 
 Esses indicadores gerais têm como objetivo fornecer uma visão rápida e consolidada do comportamento das contratações públicas registradas no PNCP, permitindo identificar o volume financeiro movimentado, a quantidade de contratações realizadas, o quantitativo de itens envolvidos e a abrangência dos portais utilizados, servindo como ponto de partida para análises mais detalhadas ao longo do painel.
 
@@ -262,7 +262,7 @@ Esses indicadores gerais têm como objetivo fornecer uma visão rápida e consol
 
 Aqui temos um mapa coloroplético do Brasil com o valor publicado por UF do órgão contratante. A cor mais escura indica as Unidades Federativas com maior concentração financeira de contratações publicadas. Quanto mais intensa a tonalidade apresentada no mapa, maior é o volume financeiro associado à respectiva Unidade Federativa.
 
-![Mapa de Valor Publicado por UF](_static/images/publicadas-mapa-uf.png)
+![Mapa de Valor Publicado por UF](_static/img/publicadas-mapa-uf.png)
 
 Essa visualização permite identificar a distribuição geográfica das contratações públicas publicadas no PNCP, evidenciando os estados com maior concentração de valores estimados. A leitura territorial facilita a percepção de padrões regionais e permite comparar o comportamento das publicações entre diferentes UFs.
 
@@ -272,7 +272,7 @@ Essa visualização permite identificar a distribuição geográfica das contrat
 
 Em seguida, a página apresenta uma matriz com o valor publicado, permitindo o detalhamento por UF do Órgão → Município do Órgão.
 
-![Matriz UF e Município - Publicadas](_static/images/publicadas-matriz-uf-municipio.png)
+![Matriz UF e Município - Publicadas](_static/img/publicadas-matriz-uf-municipio.png)
 
 Essa visualização possibilita aprofundar a análise territorial, saindo da visão por estado para uma leitura municipal. Com isso, o usuário consegue identificar não apenas quais UFs concentram mais valores publicados, mas também quais municípios possuem maior participação dentro de cada estado.
 
@@ -293,13 +293,13 @@ A visualização apresenta uma tabela de detalhamento das contratações por ór
 - Situação da contratação;
 - Elegível à margem de preferência.
 
-![Tabela de Contratações por Órgão Contratante](_static/images/publicadas-tabela-orgao-contratante.png)
+![Tabela de Contratações por Órgão Contratante](_static/img/publicadas-tabela-orgao-contratante.png)
 
 Essa tabela permite que o usuário saia da visão agregada e acesse informações mais específicas sobre cada contratação publicada. O campo com o número da contratação contém link direto para o edital no PNCP, permitindo rastreabilidade e consulta à fonte oficial.
 
 No campo **Elegível à Margem de Preferência**, há um ícone de informação que abre uma visualização complementar. Essa visualização apresenta KPIs relacionados ao valor da margem de preferência, percentual do valor com margem de preferência e um gráfico de rosca com a distribuição percentual por amparo legal.
 
-![Visualização Margem de Preferência](_static/images/publicadas-margem-preferencia.png)
+![Visualização Margem de Preferência](_static/img/publicadas-margem-preferencia.png)
 
 Essa funcionalidade ajuda a explicar, de forma mais detalhada, o impacto da margem de preferência nas contratações publicadas, sem sobrecarregar a tela principal com informações adicionais.
 
@@ -309,7 +309,7 @@ Essa funcionalidade ajuda a explicar, de forma mais detalhada, o impacto da marg
 
 A visualização apresenta um gráfico de linha de Valor Total de Contratações x Data de Publicação, mostrando a evolução dos valores publicados ao longo dos anos. A visualização em reais (R$) pode ser alternada para quantidade de contratações publicadas.
 
-![Tendência Temporal - Publicadas](_static/images/publicadas-tendencia-temporal.png)
+![Tendência Temporal - Publicadas](_static/img/publicadas-tendencia-temporal.png)
 
 Essa análise permite acompanhar a evolução temporal das publicações no PNCP, identificando crescimento, queda, estabilidade ou variações relevantes no volume financeiro e na quantidade de contratações. O gráfico ajuda a compreender como o comportamento das publicações se altera ao longo do tempo e permite identificar períodos de maior concentração de registros.
 
@@ -322,9 +322,9 @@ A visualização de Tipo de Benefício apresenta a distribuição das contrataç
 - Gráfico de barras horizontais com valores em reais (R$);
 - Gráfico de rosca com participação percentual.
 
-![Tipo de Benefício - Barras](_static/images/publicadas-tipo-beneficio-barras.png)
+![Tipo de Benefício - Barras](_static/img/publicadas-tipo-beneficio-barras.png)
 
-![Tipo de Benefício - Rosca](_static/images/publicadas-tipo-beneficio-rosca.png)
+![Tipo de Benefício - Rosca](_static/img/publicadas-tipo-beneficio-rosca.png)
 
 Essa análise permite compreender quais tipos de benefício aparecem com maior relevância nas contratações publicadas, seja em valor financeiro absoluto ou em participação percentual. Com isso, o usuário pode identificar a presença de benefícios como participação exclusiva, cota reservada, subcontratação ou ausência de benefício, conforme a classificação existente na base.
 
@@ -334,7 +334,7 @@ Essa análise permite compreender quais tipos de benefício aparecem com maior r
 
 O gráfico de Portal de Contratação apresenta o valor publicado por portal ou sistema de origem.
 
-![Portal de Contratação](_static/images/publicadas-portal-contratacao.png)
+![Portal de Contratação](_static/img/publicadas-portal-contratacao.png)
 
 Essa visualização permite identificar quais portais concentram maior volume financeiro de publicações no PNCP. A análise é importante para compreender a origem dos registros e a participação relativa dos diferentes sistemas utilizados pelos órgãos públicos para publicação de contratações.
 
@@ -347,9 +347,9 @@ A visualização de Instrumento Convocatório é dividida em duas formas de aná
 - Gráfico de barras horizontais com valores em reais (R$);
 - Gráfico de rosca com participação percentual.
 
-![Instrumento Convocatório - Barras](_static/images/publicadas-instrumento-convocatorio-barras.png)
+![Instrumento Convocatório - Barras](_static/img/publicadas-instrumento-convocatorio-barras.png)
 
-![Instrumento Convocatório - Rosca](_static/images/publicadas-instrumento-convocatorio-rosca.png)
+![Instrumento Convocatório - Rosca](_static/img/publicadas-instrumento-convocatorio-rosca.png)
 
 Essa análise permite observar quais instrumentos são mais utilizados nas contratações publicadas e qual o peso financeiro de cada um no total analisado. Ela ajuda a compreender se as publicações se concentram em editais, atos autorizativos, chamamentos, avisos ou outros instrumentos registrados na base.
 
@@ -362,9 +362,9 @@ A visualização de Critério de Julgamento também é dividida em duas formas d
 - Gráfico de barras horizontais com valores em reais (R$);
 - Gráfico de rosca com participação percentual.
 
-![Critério de Julgamento - Barras](_static/images/publicadas-criterio-julgamento-barras.png)
+![Critério de Julgamento - Barras](_static/img/publicadas-criterio-julgamento-barras.png)
 
-![Critério de Julgamento - Rosca](_static/images/publicadas-criterio-julgamento-rosca.png)
+![Critério de Julgamento - Rosca](_static/img/publicadas-criterio-julgamento-rosca.png)
 
 Essa análise permite identificar quais critérios de julgamento concentram os maiores valores nas contratações publicadas, como menor preço, maior desconto, técnica e preço, entre outros. O objetivo é mostrar como os processos de contratação são estruturados quanto ao método de escolha da proposta vencedora.
 
@@ -382,7 +382,7 @@ A página apresenta um gráfico do tipo treemap com os valores publicados por mo
 - Concorrência Presencial
 - Entre outras
 
-![Modalidade de Contratação - Tree Map (Publicadas)](_static/images/publicadas-modalidade-treemap.png)
+![Modalidade de Contratação - Tree Map (Publicadas)](_static/img/publicadas-modalidade-treemap.png)
 
 Essa visualização permite identificar quais modalidades concentram os maiores valores financeiros nas publicações do PNCP. Quanto maior o bloco no treemap, maior é o volume financeiro associado à respectiva modalidade. A análise facilita a percepção da predominância de determinados modelos de contratação e permite comparar rapidamente o peso relativo de cada modalidade.
 
@@ -395,9 +395,9 @@ Por fim, a página apresenta as visualizações de Modo de Disputa, divididas em
 - Gráfico de barras horizontais com valor em reais (R$);
 - Gráfico de rosca com participação percentual.
 
-![Modo de Disputa - Barras](_static/images/publicadas-modo-disputa-barras.png)
+![Modo de Disputa - Barras](_static/img/publicadas-modo-disputa-barras.png)
 
-![Modo de Disputa - Rosca](_static/images/publicadas-modo-disputa-rosca.png)
+![Modo de Disputa - Rosca](_static/img/publicadas-modo-disputa-rosca.png)
 
 Essa análise permite compreender como as contratações publicadas se distribuem conforme o modo de disputa adotado, como aberto, fechado, combinado ou não aplicável. A visualização auxilia na compreensão da dinâmica competitiva dos processos de contratação e mostra quais formas de disputa têm maior representatividade financeira no universo analisado.
 
@@ -411,7 +411,7 @@ Os filtros da página estão organizados em dois grupos principais: **Contrataç
 
 Os filtros de contratação definem o universo principal da análise. Eles permitem recortar os dados por identificação da contratação, período de publicação, órgão responsável, localização, modalidade, instrumento, situação e indicadores de qualidade.
 
-![Filtros de Contratação - Publicadas](_static/images/publicadas-filtros-contratacao.png)
+![Filtros de Contratação - Publicadas](_static/img/publicadas-filtros-contratacao.png)
 
 **Filtros disponíveis:**
 
@@ -492,7 +492,7 @@ No topo da página são apresentados os KPIs gerais das contratações homologad
 - Quantidade de Contratações Homologadas — Homologado - Qtd Contratações
 - Quantidade de Portais com Homologações — Homologado - Qtd Portais
 
-![KPIs Gerais - Homologadas](_static/images/homologadas-kpi-cards-gerais.png)
+![KPIs Gerais - Homologadas](_static/img/homologadas-kpi-cards-gerais.png)
 
 Esses indicadores apresentam uma visão consolidada do volume de contratações homologadas, permitindo compreender rapidamente o valor financeiro contratado, a quantidade de itens envolvidos, o número de contratações homologadas e a quantidade de portais responsáveis pelos registros. Eles funcionam como ponto de partida para a análise da página, orientando a leitura dos demais gráficos e tabelas.
 
@@ -511,7 +511,7 @@ Indicadores apresentados:
 - Quantidade de Contratações Homologadas ME/EPP — Homologado - Qtd Contratações ME/EPP;
 - Quantidade de Portais com Homologações ME/EPP — Homologado - Qtd Portais ME/EPP.
 
-![KPIs ME/EPP - Homologadas](_static/images/homologadas-kpi-me-epp.png)
+![KPIs ME/EPP - Homologadas](_static/img/homologadas-kpi-me-epp.png)
 
 Esses indicadores permitem avaliar a participação das microempresas e empresas de pequeno porte nas contratações homologadas, tanto em valor financeiro quanto em quantidade de itens, contratações e portais. Essa leitura é importante para acompanhar a presença de fornecedores de menor porte no mercado público e verificar a representatividade desse segmento nos resultados homologados.
 
@@ -526,7 +526,7 @@ A página possui uma divisão por botões que permite alternar entre:
 
 Quando o usuário seleciona **Fornecedores Nacionais**, os gráficos e indicadores passam a exibir apenas os valores e quantidades vinculados a fornecedores nacionais. Quando seleciona **Fornecedores Internacionais**, a página apresenta os resultados relacionados a fornecedores estrangeiros.
 
-![Botões de alternância Nacional/Internacional](_static/images/homologadas-botoes-nacional-internacional.png)
+![Botões de alternância Nacional/Internacional](_static/img/homologadas-botoes-nacional-internacional.png)
 
 Essa alternância permite comparar a participação nacional e internacional nas contratações homologadas, possibilitando avaliar a origem dos fornecedores, a concentração territorial dos contratos, o volume financeiro associado e possíveis diferenças entre o perfil das contratações realizadas com fornecedores brasileiros e estrangeiros.
 
@@ -536,7 +536,7 @@ Essa alternância permite comparar a participação nacional e internacional nas
 
 No modo de fornecedores nacionais, a página apresenta um mapa coroplético do Brasil com o valor homologado por UF do órgão contratante. A cor mais escura representa as Unidades Federativas com maior concentração financeira de contratações homologadas.
 
-![Mapa de Valor Homologado por UF](_static/images/homologadas-mapa-uf.png)
+![Mapa de Valor Homologado por UF](_static/img/homologadas-mapa-uf.png)
 
 Essa visualização permite compreender a distribuição geográfica dos valores homologados no território nacional, evidenciando onde se concentram os maiores volumes financeiros contratados. A análise espacial facilita a identificação de padrões regionais, diferenças entre estados e concentração de contratações homologadas em determinadas Unidades Federativas.
 
@@ -546,7 +546,7 @@ Essa visualização permite compreender a distribuição geográfica dos valores
 
 A página apresenta uma matriz com o valor homologado, permitindo o detalhamento por UF Órgão e Município Órgão.
 
-![Matriz UF e Município - Homologadas](_static/images/homologadas-matriz-uf-municipio.png)
+![Matriz UF e Município - Homologadas](_static/img/homologadas-matriz-uf-municipio.png)
 
 Essa visualização possibilita aprofundar a análise territorial, partindo da visão estadual para a leitura municipal. Com isso, o usuário consegue identificar quais municípios concentram os maiores valores homologados dentro de cada UF, permitindo uma investigação mais precisa sobre a distribuição local das contratações.
 
@@ -556,7 +556,7 @@ Essa visualização possibilita aprofundar a análise territorial, partindo da v
 
 Logo abaixo, a página apresenta um gráfico de barras horizontais com os maiores fornecedores nacionais por valor homologado em reais.
 
-![Maiores Fornecedores Contratados - Nacional](_static/images/homologadas-maiores-fornecedores.png)
+![Maiores Fornecedores Contratados - Nacional](_static/img/homologadas-maiores-fornecedores.png)
 
 Essa visualização permite identificar os fornecedores que concentram os maiores valores contratados no período e no recorte selecionado. A análise é útil para observar concentração de mercado, fornecedores recorrentes e participação relativa dos principais contratados dentro do universo analisado.
 
@@ -566,7 +566,7 @@ Essa visualização permite identificar os fornecedores que concentram os maiore
 
 Temos agora um gráfico de linha de Valor Total de Contratações x Data de Publicação, mostrando a evolução dos valores homologados ao longo dos anos. A visualização em reais (R$) pode ser alternada para quantidade de contratações homologadas.
 
-![Tendência Temporal - Homologadas](_static/images/homologadas-tendencia-temporal.png)
+![Tendência Temporal - Homologadas](_static/img/homologadas-tendencia-temporal.png)
 
 Essa análise permite acompanhar a evolução histórica das contratações homologadas, identificando crescimento, redução, estabilidade ou oscilações relevantes no volume financeiro e na quantidade de resultados. O gráfico ajuda a compreender como o comportamento das homologações se altera ao longo do tempo e permite avaliar a dinâmica dos resultados em diferentes períodos.
 
@@ -576,7 +576,7 @@ Essa análise permite acompanhar a evolução histórica das contratações homo
 
 A página conta com um gráfico de barras horizontais com o valor homologado por natureza jurídica dos fornecedores.
 
-![Natureza Jurídica dos Fornecedores](_static/images/homologadas-natureza-juridica.png)
+![Natureza Jurídica dos Fornecedores](_static/img/homologadas-natureza-juridica.png)
 
 Essa visualização permite compreender quais tipos de natureza jurídica concentram maior volume financeiro nas contratações homologadas, como sociedades empresárias, empresários individuais, entidades públicas, associações ou outras classificações disponíveis na base. Essa leitura contribui para entender o perfil jurídico dos fornecedores que participam das contratações públicas.
 
@@ -589,9 +589,9 @@ A visualização de Situação da Contratação é dividida em duas formas de an
 - Gráfico de barras horizontais com valores em reais (R$)
 - Gráfico de rosca com participação percentual
 
-![Situação da Contratação - Barras](_static/images/homologadas-situacao-barras.png)
+![Situação da Contratação - Barras](_static/img/homologadas-situacao-barras.png)
 
-![Situação da Contratação - Rosca](_static/images/homologadas-situacao-rosca.png)
+![Situação da Contratação - Rosca](_static/img/homologadas-situacao-rosca.png)
 
 As situações podem incluir:
 
@@ -612,9 +612,9 @@ A página apresenta o gráfico de Tipo de Benefício associado ao valor da contr
 - Gráfico de barras horizontais com valores em reais (R$);
 - Gráfico de rosca com participação percentual.
 
-![Tipo de Benefício - Barras (Homologadas)](_static/images/homologadas-tipo-beneficio-barras.png)
+![Tipo de Benefício - Barras (Homologadas)](_static/img/homologadas-tipo-beneficio-barras.png)
 
-![Tipo de Benefício - Rosca (Homologadas)](_static/images/homologadas-tipo-beneficio-rosca.png)
+![Tipo de Benefício - Rosca (Homologadas)](_static/img/homologadas-tipo-beneficio-rosca.png)
 
 Essa análise permite observar a distribuição dos valores homologados conforme os benefícios aplicados, como benefício ME/EPP, cota reservada, subcontratação ou ausência de benefício, conforme a classificação disponível na base. A leitura contribui para avaliar a presença e a relevância de políticas públicas de incentivo ou tratamento diferenciado nas contratações homologadas.
 
@@ -627,9 +627,9 @@ A visualização de Porte do Fornecedor também é dividida em duas formas:
 - Gráfico de barras horizontais com valores em reais (R$);
 - Gráfico de rosca com participação percentual.
 
-![Porte do Fornecedor - Barras](_static/images/homologadas-porte-fornecedor-barras.png)
+![Porte do Fornecedor - Barras](_static/img/homologadas-porte-fornecedor-barras.png)
 
-![Porte do Fornecedor - Rosca](_static/images/homologadas-porte-fornecedor-rosca.png)
+![Porte do Fornecedor - Rosca](_static/img/homologadas-porte-fornecedor-rosca.png)
 
 Essa análise permite compreender como o valor homologado se distribui entre fornecedores de diferentes portes, como ME, EPP, MEI, demais empresas ou outras classificações existentes na base. A alternância entre valor absoluto e percentual facilita a comparação entre a participação financeira de cada grupo e sua representatividade dentro do total homologado.
 
@@ -649,7 +649,7 @@ Por último, a página apresenta uma tabela com detalhamento das contratações 
 - Situação da contratação
 - Aplicação da margem de preferência
 
-![Tabela de Contratações por Fornecedor](_static/images/homologadas-tabela-fornecedor.png)
+![Tabela de Contratações por Fornecedor](_static/img/homologadas-tabela-fornecedor.png)
 
 Essa tabela permite sair da visão agregada e consultar informações mais específicas sobre cada contratação homologada e seu respectivo fornecedor. O link para o edital no PNCP garante rastreabilidade e permite consulta direta à fonte oficial.
 
@@ -673,7 +673,7 @@ Ao selecionar o botão **Contratações de Fornecedores Internacionais**, a pág
 
 No modo internacional, é apresentado um mapa coroplético mundial pelo valor homologado.
 
-![Mapa de Contratações Internacionais](_static/images/homologadas-mapa-internacional.png)
+![Mapa de Contratações Internacionais](_static/img/homologadas-mapa-internacional.png)
 
 Nesse mapa, a cor mais escura indica os países com maior concentração financeira de contratos homologados. Essa visualização permite identificar, de forma territorial, quais países possuem maior participação nas contratações públicas brasileiras, oferecendo uma leitura rápida sobre a origem geográfica dos fornecedores internacionais.
 
@@ -683,7 +683,7 @@ Nesse mapa, a cor mais escura indica os países com maior concentração finance
 
 Em seguida, a página apresenta uma tabela com o valor homologado por país, permitindo uma leitura mais objetiva e comparativa da participação de cada país no total contratado.
 
-![Tabela de País e Valores Homologados](_static/images/homologadas-pais-valores.png)
+![Tabela de País e Valores Homologados](_static/img/homologadas-pais-valores.png)
 
 Essa tabela complementa o mapa ao apresentar os valores de forma ordenada e detalhada, facilitando a identificação dos principais países fornecedores.
 
@@ -693,7 +693,7 @@ Essa tabela complementa o mapa ao apresentar os valores de forma ordenada e deta
 
 Logo abaixo, há um gráfico de barras horizontais com os maiores fornecedores internacionais por valor homologado em reais (R$).
 
-![Maiores Fornecedores Internacionais](_static/images/homologadas-maiores-fornecedores-internacionais.png)
+![Maiores Fornecedores Internacionais](_static/img/homologadas-maiores-fornecedores-internacionais.png)
 
 Essa visualização permite identificar quais fornecedores estrangeiros concentram os maiores valores contratados, contribuindo para a análise de concentração, recorrência e relevância dos principais fornecedores internacionais no conjunto das contratações homologadas.
 
@@ -703,7 +703,7 @@ Essa visualização permite identificar quais fornecedores estrangeiros concentr
 
 Por fim, a página apresenta um gráfico de linha de Valor Total de Contratações x Data de Publicação, permitindo acompanhar a evolução dos valores homologados internacionais ao longo dos anos.
 
-![Tendência Temporal - Internacional](_static/images/homologadas-tendencia-temporal-internacional.png)
+![Tendência Temporal - Internacional](_static/img/homologadas-tendencia-temporal-internacional.png)
 
 A visualização pode ser alternada entre valores em reais (R$) e quantidade de contratações homologadas, possibilitando analisar tanto o crescimento financeiro quanto o volume de registros associados a fornecedores internacionais.
 
